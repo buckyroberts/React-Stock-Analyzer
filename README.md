@@ -1,4 +1,5 @@
 ![](http://i.imgur.com/hVUcjQK.png)
+![](http://i.imgur.com/a1i1J4t.jpg)
 
 Boilerplate and guide for using React to make API calls using AJAX.
 
