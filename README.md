@@ -1,4 +1,4 @@
-# React Stock Analyzer
+![](http://i.imgur.com/hVUcjQK.png)
 
 Boilerplate and guide for using React to make API calls using AJAX.
 
