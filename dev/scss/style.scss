@@ -1,0 +1,66 @@
+@import "normalize";
+@import "grid";
+@import "themes/default/master";
+
+body{
+	margin: 15px;
+}
+
+.company-overview{
+	background-color: #f6f6f6;
+	border: 1px solid #bbb;
+	box-shadow: 2px 2px 3px rgba(0,0,0,.08);
+	margin: 10px;
+	padding: 0 15px 15px 15px;
+
+	.ticker{
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+}
+
+a, a:visited {
+	color: $secondary;
+	text-decoration: none;
+
+	&:hover{
+		color: $secondary-light;
+	}
+
+	&.active{
+		font-weight: 700;
+	}
+
+}
+
+.nav {
+
+	a, a:visited {
+		color: #ffffff;
+	}
+
+}
+
+img {
+	max-width: 100%;
+}
+
+hr {
+	border-style: none;
+	border-top: 1px solid ($default-light * 1.2);
+}
+
+p{
+	margin: 0 0 0.75em;
+}
+
+pre{
+	border: 1px solid ($default-light * 1.1) !important;
+	padding: 6px 8px !important;
+}
+
+ul{
+	li{
+		list-style-type: disc;
+	}
+}

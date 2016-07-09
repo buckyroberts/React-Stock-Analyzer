@@ -1,0 +1,27 @@
+@import "variables";
+
+form{
+	display: flex;
+	flex-direction: column;
+
+	.form-row{
+		display: flex;
+
+		& > * {
+			align-self: flex-start;
+			margin-bottom: 1.2em;
+		}
+
+		label{
+			padding-right: 2em;
+			width: 18%;
+		}
+
+		.search-input{
+			margin-right: .4em;
+		}
+
+	}
+
+}
+
